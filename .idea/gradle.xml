@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MotoClient" />
+            <option value="$PROJECT_DIR$/MotoModel" />
+            <option value="$PROJECT_DIR$/MotoNetworking" />
+            <option value="$PROJECT_DIR$/MotoPersistence" />
+            <option value="$PROJECT_DIR$/MotoServer" />
+            <option value="$PROJECT_DIR$/MotoServices" />
+            <option value="$PROJECT_DIR$/RestServices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

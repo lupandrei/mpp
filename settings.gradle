@@ -1,0 +1,9 @@
+rootProject.name = "LabMpp"
+include 'MotoModel'
+include 'MotoNetworking'
+include 'MotoPersistence'
+include 'MotoServer'
+include 'MotoServices'
+include 'MotoClient'
+include 'RestServices'
+

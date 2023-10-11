@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.motoclientfx.gui.SearchController">
+   <children>
+      <ComboBox fx:id="combo" layoutX="31.0" layoutY="344.0" onAction="#changeCombo" prefHeight="26.0" prefWidth="271.0" promptText="Team" />
+      <TableView fx:id="tableview" layoutX="31.0" layoutY="31.0" prefHeight="294.0" prefWidth="271.0">
+        <columns>
+          <TableColumn fx:id="tableColumnLastName" prefWidth="75.0" text="Last Name" />
+          <TableColumn fx:id="tableColumnFirstName" prefWidth="83.20001220703125" text="First Name" />
+            <TableColumn fx:id="tableColumnEngineCapacity" prefWidth="111.19999999999999" text="Engine Capacity" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
